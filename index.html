@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pl" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Zad2</title>
+  </head>
+  <body>
+    <he class="header">
+      <ul class="header__menu">
+        <li class="header__menu--elements"><a>Aktualności</a></li>
+        <li class="header__menu--elements"><a>Branże</a></li>
+        <li class="header__menu--elements"><a>Produkty</a></li>
+        <li class="header__menu--elements"><a>Usługi</a></li>
+        <li class="header__menu--elements"><a>Referencje</a></li>
+        <li class="header__menu--elements"><a>Kontakt</a></li>
+      </ul>
+      <div class="logo">
+        <img src="img/logo simple.png" alt="logo" class=" logo--image"></div>
+      <div class="search">
+        <input type="text" id="search" class="search__input">
+        <button onclick="myFunction()"><img src="img/lupa.png" alt="search-icon" class="search__icon"></button>
+      </div>
+    </he>
+    <div class="conteiner">
+      <div id="slideMenuOpen" class="slide__menu--open">
+        <div class="slide__menu--arrow-open-div">
+          <button class="slide__menu--arrow-open" onclick="sildeNavOpen()">
+            <i class="fa fa-caret-right fa-2x slide__menu--openIcon" aria-hidden="true"></i><br />
+          </button>
+          <p>menu</p>
+        </div>
+      </div>
+      <div id="slideMenuClose" class="slide__menu--close">
+        <button class="slide__menu--arrow" onclick="sildeNav()">
+          <i class="fa fa-caret-left fa-2x slide__menu--icons" aria-hidden="true"></i>
+        </button>
+        <span>Menu</span>
+        <hr />
+        <div>
+          <a href="#">Aktualności</a>
+          <a href="#">Branże</a>
+          <a href="#">Produkty</a>
+          <a href="#">Usługi</a>
+          <a href="#">Referencje</a>
+          <a href="#">Kontakt</a>
+        </div>
+        <hr />
+        <div>
+          <a href="#">O firmie</a>
+          <a href="#">Nagrody</a>
+          <a href="#">Relacje inwestorskie</a>
+          <a href="#">Partnerzy</a>
+          <a href="#">Kariera</a>
+        </div>
+        <hr />
+          <i class="fa fa-facebook fa-2x slide__menu--icons" aria-hidden="true"></i><br />
+          <i class="fa fa-linkedin fa-2x slide__menu--icons" aria-hidden="true"></i>
+      </div>
+    <div class="content">
+      <div class="content__header">
+        <img src="img/home.png" alt="home" class="content__header--image">
+        <h2 class="content__header--paragraph">O FIRMIE</h2>
+      </div>
+      <p>SIMPLE - z nami biznes jest prostrzy!</p>
+      <div class="content__main">
+        <div class="content__main-left">
+          <div class="content__main__section">
+            <img src="img/man1.png" alt="Man" class="content__main--image">
+          </div>
+          <div class="content__main__section">
+            <h4>ponad 24 lata doświadczenia</h4>
+            <p>SIMPLE S.A. jest wiodącym w kraju producentem rozwiązań informatycznych do wspomagania zarządzania przedsiębiorstwami. Będąc producentem oprogramowania, dajemy pełną gwarancję dotyczącą jego działania oraz dostosowania do zmieniających się warunków biznesowych i przepisów prawa oraz szybkiej reakcji na zmieniające się potrzeby klientów.</p>
+          </div>
+          <div class="content__main__section">
+            <h4>ponad 3 500 klientów</h4>
+            <p>Działamy na polskim rynku producentów rozwiązań klasy ERP już od ponad 24 lat! Dostarczamy rozwiązania, które sprawdziły się w wielu zróżnicowanych branżach i doskonale znamy biznes naszych klientów. Nasza oferta dostosowana jest do potrzeb głównych sektorów polskiego rynku. Ze współpracy z nami skorzystało już blisko ponad 3,5 tysiąca firm.</p>
+          </div>
+          <div class="content__main__section">
+            <h4>ponad 23 000 użytkowników</h4>
+            <p>Nasze produkty zawsze charakteryzowały się udanym połączeniem: innowacyjności, szerokiej funkcjonalności, adaptowalności i skalowalności jak również dbałości o rozsądny budżet, dostosowany do możliwości naszych Klientów. Dlatego w 2010 roku liczba naszych użytkowników przekroczyła 25 tysiące</p>
+          </div>
+          <div class="content__main__section">
+            <h4>nasi odbiorcy</h4>
+            <p>Odbiorcami naszych usług są głównie firmy budowlane,</p>
+          </div>
+        </div>
+        <div class="content__main-right">
+          <div class="content__main__section">
+            <p>przedsiębiorstwa produkcyjne, uczelnie wyższe, jednostki medyczne oraz firmy usługowe i handlowe. Widzimy i wspólnie wykorzystujemy możliwości jakie daje proces integracji Polski z Unią Europejską.</p>
+          </div>
+          <div class="content__main__section">
+            <h4>zintegrowane rozwiązania dla każdej branży</h4>
+            <p>SIMPLE posiada kompleksowe rozwiązania, dedykowane największym sektorom naszej gospodarki. W naszej ofercie znajdą Państwo rozwiązania dla firm o różnych profilach działalności (produkcyjnym, budowlanym, usługowym, handlowym), dla uczelni wyższych, jednostek medycznych, instytutów badawczych czy jednostek rządowych.<br />
+          Nasze doświadczenia obejmują realizacje systemów dedykowanych pod indywidualne potrzeby klientów oraz integrację wszelkich rozwiązań wspomagających zarządzanie.</p>
+          </div>
+          <div class="content__main__section">
+            <h4>certyfikaty i rekomendacje</h4>
+            <p>SIMPLE S.A. posiada istotne na polskim rynku rekomendacje od Polskiego Towarzystwa Ekonomicznego oraz Stowarzyszenia Księgowych w Polsce, które potwierdzają, że oprogramowanie SIMPLE jest dostosowywane do zmieniających się polskich przepisów prawnych oraz wymagań Unii Europejskiej.  Ponadto SIMPLE S.A. wprowadziło i stosuje system zarządzania jakością ISO 90001:2008 w zakresie: projektowania, produkcji i wdrażania systemów informatycznych, a także  sprzedaż i instalacja sprzętu komputerowego oraz szkolenia.</p>
+          </div>
+          <div class="content__main__section">
+            <p>Oprogramowanie SIMPLE zostało wyróżnione również: GAZELĄ BIZNESU, MEDALEM EUROPEJSKIM, statuetką TopBuilder oraz posiada status Microsoft Gold Certified Partner oraz BRE Partner Gold CERTIFICATE.  Osiągnięte wyniki pozwoliły zająć SIMPLE S.A. 30 miejsce w rankingu DIAMENTÓW FORBESA dla województwa mazowieckiego. Firma SIMPLE otrzymała również tytuł "Najlepszy dostawca IT dla przemysłu 2010 w kategorii ERP/MRP II (system polski)- producent".</p>
+          </div>
+          <div class="content__main__section">
+            <h4>zawsze blisko ciebie</h4>
+            <p>SIMPLE S.A. wraz z Partnerami prowadzi szeroko zakrojoną sprzedaż do Klientów na terenie całego kraju. Chcemy być jak najbliżej naszych klientów, dlatego wciąż dążymy do poszerzania sieci naszej sprzedaży.Unią Europejską.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+    <div class="footer">
+    </div>
+    <script>
+      function myFunction() {
+        document.getElementById("search").style.display = "inline";
+      };
+      function sildeNav(){
+        console.log(1);
+        document.getElementById("slideMenuOpen").style.width = "50px";
+        document.getElementById("slideMenuClose").style.width = "0";
+      };
+      function sildeNavOpen(){
+        console.log(2);
+        document.getElementById("slideMenuOpen").style.width = "0";
+        document.getElementById("slideMenuClose").style.width = "170px";
+      }
+    </script>
+    <script src="https://use.fontawesome.com/2d5e8bd23e.js"></script>
+  </body>
+</html>
